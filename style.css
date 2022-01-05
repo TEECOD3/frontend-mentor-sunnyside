@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    margin: 0%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/* GLOBAL STYLES */
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+.btn{
+    margin: 1rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3rem;
+  
+}
+/* .container{
+    max-width: 80rem;
+    width: 90%;
+    margin: 0 auto;
+} */
+/* HEADER STYLES STARTS */
+
+.header{
+    background-image: url('./images/mobile/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem 0 0 1rem;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.hamburger{
+    position: absolute;
+    top:1.2rem;
+    right: 2.5rem;
+    color: azure;
+    font-size: 2rem;
+}
+.logo{
+    position: absolute;
+    top: 1.5rem;
+    left:1.5rem;
+    }
+
+    /* .arrow-up{
+        width: 0;
+        height: 0;
+        border-right: 10px solid white;
+        border-top: 10px solid transparent;
+        position: absolute;
+        top:7.rem;
+        right: 2.3rem;
+    } */
+
+.navigation{
+    display:flex;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width:85% ;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    height:50%;
+    justify-content: center;
+    /* margin: 0 auto; */
+    display:one;
+    z-index: 30;
+    display: none;
+}
+.navigation::before{
+    content: '';
+    height: 0;
+    border-right: 30px solid white;
+    border-top: 30px solid transparent;
+    position: absolute;
+    top:-1.6rem;
+    right: 0;
+}
+/* .nav-menu{
+    padding: 1rem;
+} */
+
+.nav-item{
+   padding:1rem;
+   text-transform:capitalize;
+}
+
+.main-heading{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+     
+}
+.main-heading{
+    font-size: 2.1rem;
+    color: white;
+    font-family: 'Fraunces', serif;
+
+}
+
+.arrow-down{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/* transform section starts here */
+.transform-content{
+    display: flex;
+    flex-direction: column;
+}
+.egg-image img{
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+}
+.transform-heading{
+    margin:1rem 0;
+    text-align: center;
+}
+.transform-heading h1{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing:1px;
+
+}
+.transform-content p{
+    margin: 0.5rem 0rem;
+    line-height: ;
+    text-align: center;
+    padding: 1rem 0.6rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+.btn:after{
+
+}
+ /* cup styling starts here */
+            
+ .cup-image  img{
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.cup-heading{
+    margin:1rem 0 0.4rem 0;
+    text-align: center;
+    padding: 1rem;
+}
+.cup-heading h1{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing:
+}
+/* .cup-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cup-content p{  
+    margin: 0px auto;
+    text-align:center;
+    font-size: 0.9rem;
+    color: grey;
+    width: 70%;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+}
+
+.btn:after{
+  content: '';
+
+}
+
+/* desciption section starts here */
+.description-content{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.description-content .image img{
+    width: 100%;
+    /* height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; */
+    display: block;
+   
+}
+
+.text-content{
+    position: absolute;
+    bottom: 20%;
+ 
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+ .text-content h1 {
+    font-size:1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+.text-content p {
+    line-height: 1.4 ;
+    padding: 1rem;
+    color: grey;
+    width: 70%;
+    
+}
+
+/* testimonials styling */
+.testimony-1{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.testimony-section{
+    margin: 1rem 0;
+    text-align: center;
+}
+.testi-heading {
+   padding: 3rem 1rem;
+   text-align: center;
+
+}
+.testi-heading h1{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing:5px;
+    color: grey;
+    
+}
+
+.testi-image{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.testi-image img{
+    border-radius: 50%;
+}
+
+.testimony-1  p{
+    padding:1rem 0.5rem;
+    color: grey;
+    text-align: center;
+}
+
+.testimony-1 h2{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+.testimony-1 h1{
+    font-size: 0.7rem;
+    color: grey;
+   
+}
+
+/* images area styling starts here */
+
+
+.images-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 50vw;
+}
+/* footer styling starts here */
+
+footer{
+    background-color:  hsl(168, 26%, 60%);
+}
+.footer-container{
+
+    width: 80vw;
+    margin: 0rem auto;
+}
+.footer-heading{
+  color: hsl(167, 40%, 24%);
+  padding: 2rem 0rem 0rem 0rem;
+}
+.footer-heading h1{
+    text-align: center;
+    font-size: 2rem;
+   
+}
+.main-nav{
+    display: flex;
+    padding: 1.3rem 0rem 0 0;
+    justify-content: center;
+}
+.main-items{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav-links{
+    text-transform: capitalize;
+    color: hsl(167, 40%, 24%);
+    text-decoration: none;
+}
+.icons-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem;
+    margin-bottom: rem;
+}
+.icon{
+    color: hsl(167, 40%, 24%);
+    padding: 0rem 0.5rem;
+    font-size: 1rem;
+}
+.icon a:hover  {
+    cursor: pointer;
+   color: ivory;
+}
+
+@media screen ( max-width:765px ){
+    
+}
+
+
+
+
+
