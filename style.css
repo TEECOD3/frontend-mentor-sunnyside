@@ -54,6 +54,9 @@ a{
     top: 0;
     left: 0;
 }
+.header-nav{
+    width: 90%;
+}
 .mobile-image{
     position:absolute;
     top: 0;
@@ -82,7 +85,7 @@ a{
 .hamburger{
     position: absolute;
     top:1.2rem;
-    right: 2.5rem;
+    right: .5rem;
     color: azure;
     font-size: 2rem;
 }
@@ -107,7 +110,7 @@ a{
 .text-contents{
     position:absolute;
     width: inherit;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -182,9 +185,9 @@ a{
  /* cup styling starts here */
             
  .cup-image  img{
-    background-position:center;
+    /* background-position:center;
     background-size:cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 100%;
     width: 100%;
 }
@@ -576,6 +579,8 @@ footer{
         max-width: 25%;
     }
 
+    
+     
     }
 
 
