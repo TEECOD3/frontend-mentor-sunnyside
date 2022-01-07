@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
 
+
+:root{
+--soft_red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--Dark_desaturated__cyan: hsl(167, 40%, 24%);
+--Dark_blue: hsl(198, 62%, 26%);
+--Dark_moderate_cyan: hsl(168, 34%, 41%);
+--Very_dark_desaturated_blue: hsl(212, 27%, 19%);
+--Very_dark_grayish_blue: hsl(213, 9%, 39%);
+--Dark_grayish_blue: hsl(232, 10%, 55%);
+--Grayish_blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -154,7 +168,7 @@ a{
     text-transform: capitalize;
     font-size: 1.5rem;
     letter-spacing:1px;
-
+  
 }
 .transform-content p{
     margin: 0.5rem 0rem;
@@ -162,12 +176,9 @@ a{
     text-align: center;
     padding: 1rem 0.6rem;
     font-size: 1rem;
-    color: grey;
+    color:var(--Grayish_blue);
 }
 
-.btn:after{
-
-}
  /* cup styling starts here */
             
  .cup-image  img{
@@ -188,17 +199,12 @@ a{
     font-size: 1.6rem;
     letter-spacing:
 }
-/* .cup-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .cup-content p{  
     margin: 0px auto;
     text-align:center;
     font-size: 0.9rem;
-    color: grey;
+    color:var(--Grayish_blue);
     /* width: 70%; */
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
@@ -234,7 +240,7 @@ a{
 .text-content2 p {
     line-height: 1.4 ;
     padding: 1rem;
-    color: grey;
+    color:var(--Grayish_blue);
     width: 100%;
     text-align: center;
     
@@ -258,12 +264,12 @@ a{
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing:5px;
-    color: grey;
+    color:var(--Dark_grayish_blue);
     
 }
 
 .testi-image{
-    width: 100vw;
+    
     display: flex;
     justify-content: center;
 }
@@ -274,7 +280,7 @@ a{
 
 .testimony-1  p{
     padding:1rem 0.5rem;
-    color: grey;
+    color:var(--Grayish_blue);
     text-align: center;
 }
 
@@ -285,7 +291,7 @@ a{
 }
 .testimony-1 h1{
     font-size: 0.7rem;
-    color: grey;
+    color: var(--Grayish_blue);
    
 }
 
@@ -302,7 +308,7 @@ a{
 /* footer styling starts here */
 
 footer{
-    background-color:  hsl(168, 26%, 60%);
+    background-color: var(--Dark_moderate_cyan);
 }
 .footer-container{
 
@@ -310,7 +316,7 @@ footer{
     margin: 0rem auto;
 }
 .footer-heading{
-  color: hsl(167, 40%, 24%);
+  color:var(--Dark_desaturated__cyan);
   padding: 2rem 0rem 0rem 0rem;
 }
 .footer-heading h1{
@@ -330,7 +336,7 @@ footer{
 }
 .nav-links{
     text-transform: capitalize;
-    color: hsl(167, 40%, 24%);
+    color:var(--Dark_desaturated__cyan);
     text-decoration: none;
 }
 .icons-wrapper{
@@ -341,13 +347,13 @@ footer{
     margin-bottom: rem;
 }
 .icon{
-    color: hsl(167, 40%, 24%);
+    color:var(--Dark_desaturated__cyan);
     padding: 0rem 0.5rem;
     font-size: 1rem;
 }
 .icon a:hover  {
     cursor: pointer;
-   color: ivory;
+   color:var(--White);
 }
 
 @media ( min-width:699px ){
@@ -435,7 +441,7 @@ footer{
         
      }
      .nav-item{
-         color:white;
+         color:var(--White);
          
          
      }
@@ -444,7 +450,7 @@ footer{
      }
 
      .nav-itemss{
-         background-color: white;
+         background-color:var(--White);
          display: flex;
          align-items: center;
          justify-content: center;
@@ -454,7 +460,7 @@ footer{
          transition: all .2s ease-in;
      }
      .nav-itemss:hover{
-         background-color: rgba(255, 255, 255, 0.507);
+         background-color:rgba(255, 255, 255, 0.377);
      }
 
     .navigation::before{
@@ -462,7 +468,7 @@ footer{
     }
 
     .nav-item .btn a{
-        background: white;
+        background:var(--White);
         padding: 0.5rem;  
 
     }
@@ -533,19 +539,42 @@ footer{
     .cup-heading{
         width: 50%;
     }
-    .description__contain{
+    .flex__contain{
         display: flex;
         flex-direction: row;
     }
-    .text-content2{
-        width: 50%;
+    .flexx__contain{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        width:70%;
         margin: 0 auto;
     }
-    /* .description-content img{
-        background-position: center;
-        background-size:contain;
+
+    .testimony-1{
+        width: 35%;
+        flex: 0 0 auto;
+    }
+
+
+    .text-content2{
         width: 100%;
-    } */
+        margin: 0 auto;
+        padding: 0 5rem;
+    
+    }
+    
+    .testimony-1 p{
+        font-size: .8rem;
+    }
+    .images-section{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .img{
+        max-width: 25%;
+    }
 
     }
 
