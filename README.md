@@ -1,3 +1,3 @@
 live link to challenge
 
-sunnysidefrontendmentorsss.netlify.app
+https://sunnysidefrontendmentorsss.netlify.app
